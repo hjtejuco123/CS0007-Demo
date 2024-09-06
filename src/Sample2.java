@@ -6,9 +6,13 @@ import java.util.Scanner;
 public class Sample2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        //prompt
         System.out.println("Enter age: ");
+        //input
         int age = scanner.nextInt();
+        //prompt
         System.out.println("Are you a member (true/false): ");
+        //input
         boolean isMember = scanner.nextBoolean();
         //if age >= 60 age >=18
         

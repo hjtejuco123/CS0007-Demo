@@ -9,11 +9,18 @@ public class Sample3 {
         System.out.println("Enter an integer: ");
         int number = scanner.nextInt();
         
-        number += 5; 
+        number += 5; //number = number+5;
         System.out.println("After the inc the value is "+number);
         
-        String result = (number %2 == 0)? "Even":"Odd";
-        System.out.println("The number is "+result);
+        //String result = (number%2==0)? "Even":"Odd";
+        
+        if (number%2==0){
+            System.out.println("The number is Even");
+        }else{
+            System.out.println("The number is Odd");
+        }
+        
+        //System.out.println("The number is "+result);
 
         scanner.close();
     }
