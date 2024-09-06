@@ -1,0 +1,48 @@
+
+ATM Machine System
+    user is perform the following operations
+        check balance
+        deposit
+        withdraw 
+        exit (end transaction)
+
+Input
+    Select from the choices
+
+Account Management
+    Account 1000
+
+    Update account balance base on the transaction
+
+Menu
+    Check Balance
+    Deposit
+    Withdraw
+    Exit
+
+Error Handling
+    Check the balance if insufficient 
+    Choices if invalid
+
+
+Test Cases
+
+Check Balance   1   Current Balance 1000
+Deposit         2   How much deposit
+                        500
+                    Update the current balance to 1500
+Withdraw        3   Current Balance 1500
+                    Amount to Withdraw 300
+                    Update the current balance to 1200 
+Exit            4   Exit the application
+
+Withdraw        3   Current Balance 1200
+                    Amount to Withdraw 2000
+                    Insufficient Balance
+
+Deposit         2   How much deposit
+                        -100
+                    Invalid deposit amount.
+                       Enter positive number
+
+   
