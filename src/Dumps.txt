@@ -34,6 +34,15 @@ Deposit         2   How much deposit
 Withdraw        3   Current Balance 1500
                     Amount to Withdraw 300
                     Update the current balance to 1200 
+
+                        if withdrawamount > 0 && withdrawamount <= accountbalance
+                            accountbalance -= withdrawamount
+                        else if withdrawamount > accountbalance
+                            display insufficient amount, cannot withdraw the amount
+                        else
+                            invalid input, please enter a positive amount.
+
+
 Exit            4   Exit the application
 
 Withdraw        3   Current Balance 1200
