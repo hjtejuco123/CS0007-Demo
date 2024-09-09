@@ -1,0 +1,31 @@
+if else
+    
+    if (condition){
+        //true statement
+    }else{
+        //fa
+
+    }
+
+if else if else 
+    if (condition) {
+        statement_1;
+    }else if (condition2){
+        statement_2;
+    }else{
+        statement_3;
+    }
+
+
+psvm <tab> – public static void main(String[]args)
+sout <tab> – System.out.println(” “)
+for <tab> – the simple for loop
+fori<tab> – for loop with an object array
+if <tab> – starts your if statement for you
+ifelse<tab> – if else statement
+wh<tab> – while loop
+do <tab> – the do while loop
+<alt> <shift> <f> – will sort out your horrible indenting
+bcom<tab. – /* */ multiple line comment
+trycatch <tab> – for the try  . . . catch statement
+sw<tab> – switch case break statement

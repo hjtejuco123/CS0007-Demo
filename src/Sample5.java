@@ -3,7 +3,7 @@
  * Relational and Logical Operators
  * <, >, ==, != true or false 
  * 
- *                          and                 or          not
+ *                          and &&              or ||     ! not
  *                          fand                tor
  * t    t   t and t         t       t or t      t       t   f
  * t    f   t and f         f       t or f      t       f   t
