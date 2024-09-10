@@ -42,3 +42,32 @@ do <tab> – the do while loop
 bcom<tab. – /* */ multiple line comment
 trycatch <tab> – for the try  . . . catch statement
 sw<tab> – switch case break statement
+
+
+
+HJT ATM System
+
+1. Add a user
+2. Check Balance
+3. Deposit Money
+4. Withdraw Money
+5. View account summary
+6. Exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
