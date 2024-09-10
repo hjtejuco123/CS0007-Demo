@@ -16,7 +16,7 @@ public class Module4_ex6 {
         }
         
         //calculation
-        double total = 0;
+        double total=0;
         for (int i = 0; i < prices.length; i++) {
             total += prices[i]; //0-1, 1-2, 2-3
         }
