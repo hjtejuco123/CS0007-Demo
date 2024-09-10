@@ -17,6 +17,19 @@ if else if else
     }
 
 
+for (int, condition; inc/dec){
+    statements;
+}
+
+int;
+while(condition){
+    statement;
+    inc/dec;
+}
+
+
+
+
 psvm <tab> – public static void main(String[]args)
 sout <tab> – System.out.println(” “)
 for <tab> – the simple for loop
