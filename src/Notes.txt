@@ -1,13 +1,13 @@
 
 https://github.com/hjtejuco123/CS0007-Demo
-
+https://github.com/hjtejuco123/CS0007-Demo/tree/master/src
 
 if else
     
     if (condition){
         //true statement
     }else{
-        //fa
+        //false statement 
 
     }
 
@@ -23,17 +23,19 @@ if else if else
     }
 
       1      2=T       4
-for (int, condition; inc/dec){
-    statements; = 3
+for (init; condition; inc/dec){     //how many times will it execute1
+    statements; // 3                x<=4  
 }
 
-int;
-while(condition){       while(true) {
+init;
+while(condition){       while(Condition->true) {
     statement;              statement;
     inc/dec;
 }                       }
 
-int;
+                        //break, return 
+
+init;
 do {
     statement;
     inc/dec;

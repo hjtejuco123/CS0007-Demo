@@ -8,27 +8,29 @@ public class Module4_ex4 {
         Scanner scanner = new Scanner(System.in);
         //for loop
         System.out.println("Printing numbers from 1-10");
+            // 1          2 - t   4
         for (int i = 1; i <= 10; i++) {
-            System.out.print(i +" ");
+            System.out.print(i +" ");  //3
         }
         System.out.println();
         System.out.println("While Loop");
         System.out.print("Enter n: ");
         int n = scanner.nextInt();
-        int sum = 0;
+        int sum=0;
         int i = 1;
         System.out.println("sum of "+n+" numbers: ");
         while (i<=n) {
-            sum += i;
+            sum += i;   // sum = sum+i; accumulator
             i++;
         }
         System.out.println("sum is "+sum);
         System.out.println();
         System.out.println("Do While Loop");
         System.out.println("Factorial ");
+        //1*2*3*4
         System.out.print("Enter n: ");
         int num = scanner.nextInt();
-        int j = 10;
+        int j = 1;
         int factorial = 1;
         do {
             factorial *= j; 

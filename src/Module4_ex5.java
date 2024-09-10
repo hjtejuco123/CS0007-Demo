@@ -21,8 +21,13 @@ public class Module4_ex5 {
             //numbers[2]=3
             //numbers[3]=4
             //numbers[4]=5
-            
         }
+        //regular java code without .length
+//        for (int i = 0; i < 5; i++) {
+//            numbers[i]=scanner.nextInt();
+//        }
+        
+        
         //print array
         System.out.println("Printing value of the array ");
         for (int i = 0; i < numbers.length; i++) {
@@ -34,6 +39,6 @@ public class Module4_ex5 {
             //numbers[4]=5
         }
         System.out.println();
-        scanner.close();
+        scanner.close(); //memory leak
     }
 }
