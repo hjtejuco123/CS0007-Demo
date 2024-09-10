@@ -95,7 +95,7 @@ public class ATMv2 {
                         }
                         
                         if (withdrawAmount > 0 && withdrawAmount <= balances[i]){
-                            balances[i]+= withdrawAmount;
+                            balances[i]-= withdrawAmount;
                             System.out.println("Withdraw amount: "+withdrawAmount);
                             System.out.println("New balance is: "+balances[i]);
                         }else if (withdrawAmount > balances[i]){
