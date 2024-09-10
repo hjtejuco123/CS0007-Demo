@@ -6,10 +6,12 @@ import java.util.Scanner;
 public class ATMv2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner (System.in);
-        String[] userName = new String[10];
+        String[] userNames = new String[10];
         double[] balances = new double[10];
+        
         double depositAmount=0;
         double withdrawAmount=0;
+        
         int userCount = 0; //tracker of the number of users
     
         while(true){
@@ -27,11 +29,13 @@ public class ATMv2 {
                     if (userCount<10) {
                         //input
                         System.out.print("Enter your name: ");
-                        userName[userCount]=scanner.next();
+                        userNames[userCount]=scanner.next();
                         System.out.print("Enter initial Deposit ");
                         balances[userCount] = scanner.nextDouble();
-                        System.out.println("Account created for: "+userName[userCount]);
+                        scanner.nextLine();
+                        System.out.println("Account created for: "+userNames[userCount]);
                         System.out.println("Initial Balance is "+balances[userCount]);
+                        userCount++;
                     }else{
                         System.out.println("User Limit reached....");
                     }
@@ -40,24 +44,27 @@ public class ATMv2 {
                     System.out.print("Enter account name to check: ");
                     String nameToCheck = scanner.next();
                     boolean userFound = false;
+                    
                     for (int i = 0; i < userCount; i++) {
                         //equalsToIgnoreCase
-                        if (userName[i].equalsIgnoreCase(nameToCheck)) {
+                        if (userNames[i].equalsIgnoreCase(nameToCheck)) {
                             System.out.println("Balance is "+balances[i]);
                             userFound = true;
                             break;
                         }
                     }
+                    
                     if (!userFound){
                         System.out.println("User not found....");
                     }
                     break;
+                    
                 case 3:
                     System.out.print("Enter your name to deposit: ");
                     String nameToDeposit = scanner.next();
                     userFound = false;
                     for (int i = 0; i < userCount; i++) {
-                        if (userName[i].equalsIgnoreCase(nameToDeposit)) {
+                        if (userNames[i].equalsIgnoreCase(nameToDeposit)) {
                             System.out.println("Enter amount to deposit: ");
                             depositAmount = scanner.nextDouble();
                         }
@@ -82,7 +89,7 @@ public class ATMv2 {
                     String nameToWithdraw = scanner.next();
                     userFound = false;
                     for (int i = 0; i < userCount; i++) {
-                        if (userName[i].equalsIgnoreCase(nameToWithdraw)) {
+                        if (userNames[i].equalsIgnoreCase(nameToWithdraw)) {
                             System.out.println("Enter amount to withdraw: ");
                             withdrawAmount = scanner.nextDouble();
                         }
@@ -107,7 +114,7 @@ public class ATMv2 {
                     if (userCount > 0){
                         System.out.println("Account Summary ");
                         for (int i = 0; i < userCount; i++) {
-                            System.out.println("User: "+userName[i]+ "| Balance "+balances[i]);
+                            System.out.println("User: "+userNames[i]+ "| Balance "+balances[i]);
                         }
                     
                     }else{
