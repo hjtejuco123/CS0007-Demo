@@ -26,9 +26,9 @@ public class ATMv2 {
                 case 1:
                     if (userCount<10) {
                         //input
-                        System.out.println("Enter your name: ");
+                        System.out.print("Enter your name: ");
                         userName[userCount]=scanner.nextLine();
-                        System.out.println("Enter initial Deposit ");
+                        System.out.print("Enter initial Deposit ");
                         balances[userCount] = scanner.nextDouble();
                         System.out.println("Account created for: "+userName[userCount]);
                         System.out.println("Initial Balance is "+balances[userCount]);
@@ -37,7 +37,7 @@ public class ATMv2 {
                     }
                     break;
                 case 2:
-                    System.out.println("Enter account name to check: ");
+                    System.out.print("Enter account name to check: ");
                     String nameToCheck = scanner.nextLine();
                     boolean userFound = false;
                     for (int i = 0; i < userCount; i++) {
@@ -53,7 +53,7 @@ public class ATMv2 {
                     }
                     break;
                 case 3:
-                    System.out.println("Enter your name to deposit: ");
+                    System.out.print("Enter your name to deposit: ");
                     String nameToDeposit = scanner.nextLine();
                     userFound = false;
                     for (int i = 0; i < userCount; i++) {
@@ -78,7 +78,7 @@ public class ATMv2 {
                     
                     break;
                 case 4:
-                    System.out.println("Enter your name to withdraw: ");
+                    System.out.print("Enter your name to withdraw: ");
                     String nameToWithdraw = scanner.nextLine();
                     userFound = false;
                     for (int i = 0; i < userCount; i++) {
