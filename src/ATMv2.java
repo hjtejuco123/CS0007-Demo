@@ -27,7 +27,7 @@ public class ATMv2 {
                     if (userCount<10) {
                         //input
                         System.out.print("Enter your name: ");
-                        userName[userCount]=scanner.nextLine();
+                        userName[userCount]=scanner.next();
                         System.out.print("Enter initial Deposit ");
                         balances[userCount] = scanner.nextDouble();
                         System.out.println("Account created for: "+userName[userCount]);
@@ -38,7 +38,7 @@ public class ATMv2 {
                     break;
                 case 2:
                     System.out.print("Enter account name to check: ");
-                    String nameToCheck = scanner.nextLine();
+                    String nameToCheck = scanner.next();
                     boolean userFound = false;
                     for (int i = 0; i < userCount; i++) {
                         //equalsToIgnoreCase
@@ -54,7 +54,7 @@ public class ATMv2 {
                     break;
                 case 3:
                     System.out.print("Enter your name to deposit: ");
-                    String nameToDeposit = scanner.nextLine();
+                    String nameToDeposit = scanner.next();
                     userFound = false;
                     for (int i = 0; i < userCount; i++) {
                         if (userName[i].equalsIgnoreCase(nameToDeposit)) {
@@ -79,7 +79,7 @@ public class ATMv2 {
                     break;
                 case 4:
                     System.out.print("Enter your name to withdraw: ");
-                    String nameToWithdraw = scanner.nextLine();
+                    String nameToWithdraw = scanner.next();
                     userFound = false;
                     for (int i = 0; i < userCount; i++) {
                         if (userName[i].equalsIgnoreCase(nameToWithdraw)) {
