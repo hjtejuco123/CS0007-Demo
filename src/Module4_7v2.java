@@ -17,7 +17,7 @@ public class Module4_7v2 {
         //input
         System.out.println("Enter the elements of the array");
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix.length; j++) {
+            for (int j = 0; j < matrix[i].length; j++) {
                           //  i  j 
                 //Element at [0][0]: 1
                 System.out.print("Element at ["+i+"]["+j+"]: ");
@@ -28,7 +28,7 @@ public class Module4_7v2 {
         //output
         System.out.println("Elements of the array are: ");
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix.length; j++) {
+            for (int j = 0; j < matrix[i].length; j++) {
                         // 1 2 3
                         // 4 5 6
                     System.out.print(matrix[i][j]+ " ");
