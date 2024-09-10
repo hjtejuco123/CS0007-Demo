@@ -28,7 +28,7 @@ public class Module4_ex4 {
         System.out.println("Factorial ");
         System.out.print("Enter n: ");
         int num = scanner.nextInt();
-        int j = 1;
+        int j = 10;
         int factorial = 1;
         do {
             factorial *= j; 

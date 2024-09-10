@@ -1,3 +1,7 @@
+
+https://github.com/hjtejuco123/CS0007-Demo
+
+
 if else
     
     if (condition){
@@ -8,25 +12,32 @@ if else
     }
 
 if else if else 
+
     if (condition) {
         statement_1;
     }else if (condition2){
         statement_2;
+        ....
     }else{
         statement_3;
     }
 
-
+      1      2=T       4
 for (int, condition; inc/dec){
-    statements;
+    statements; = 3
 }
 
 int;
-while(condition){
+while(condition){       while(true) {
+    statement;              statement;
+    inc/dec;
+}                       }
+
+int;
+do {
     statement;
     inc/dec;
-}
-
+}while(condition);
 
 
 
