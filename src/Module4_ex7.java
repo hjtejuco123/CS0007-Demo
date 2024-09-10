@@ -18,7 +18,28 @@ public class Module4_ex7 {
             }
             System.out.println();
         }
+        /*  i j 
+            0,0 1
+            0,1 2
+            0,2 3
         
+            i j 
+            1,0 4
+            1,1 5
+            1,2 6
+        
+            i j 
+            2,0 7
+            2,1 8
+            2,2 9
+        
+            Output
+        
+            1 2 3
+            4 5 6
+            7 8 9
+        
+        */
         
         
         
