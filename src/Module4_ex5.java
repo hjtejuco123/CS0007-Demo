@@ -50,7 +50,7 @@ public class Module4_ex5 {
             3       t                   4           4
             4       t                   5           5
             5       f           
-        */1
+        */
             //numbers[0]=1
             //numbers[1]=2
             //numbers[2]=3
