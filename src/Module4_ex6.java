@@ -21,7 +21,10 @@ public class Module4_ex6 {
         //calculation
         double total=0; //accumulator
         for (int i = 0; i < prices.length; i++) {
-            total += prices[i]; //numbers[0]-1, 1-2, 2-3
+            total += prices[i]; //numbers[0]-1, 1-2, 2-33
+            // total = total + numbers[0] 1
+            // total = total + numbers[1] 3
+            // total = total + numbers[2] 6
         }
         System.out.println("Total price is: "+total);
         scanner.close();
