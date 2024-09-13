@@ -14,6 +14,15 @@ public class ATMv2 {
         
         int userCount = 0; //tracker of the number of users
     
+        /*
+        while (true){
+            press ng exit (true)
+            press exit (6) -> return 
+        
+        }
+        */
+        
+        
         while(true){
             System.out.println("HJT ATM System");
             System.out.println("1. Add a new user");
@@ -35,7 +44,7 @@ public class ATMv2 {
                         scanner.nextLine();
                         System.out.println("Account created for: "+userNames[userCount]);
                         System.out.println("Initial Balance is "+balances[userCount]);
-                        userCount++;
+                        userCount++;//increment
                     }else{
                         System.out.println("User Limit reached....");
                     }
