@@ -20,7 +20,9 @@ access modifiers
         or subclasses
 
 return_type
-    int, String, void
+    int, String, 
+
+void
 
 method_name
     name of the method *camelCase
