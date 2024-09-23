@@ -8,9 +8,10 @@ specific function
 General Syntax
 
 [access modifiers] return_type method_name[paramater_list]{
-    method body
+        method body
         contains the code to be executed when called
-    return value
+    
+    return value (int, float, double, char) void
 }
 
 access modifiers
