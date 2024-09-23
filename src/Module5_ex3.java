@@ -4,7 +4,7 @@
  * compute for the temp
  */
 public class Module5_ex3 {
-    
+    //methods
     public double toCelcius(double fahrenheit){
         return (fahrenheit - 32)*5/9;
     }

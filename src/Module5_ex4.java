@@ -5,7 +5,7 @@
  * @author hadjitejuco
  */
 public class Module5_ex4 {
-    
+    //method -> oop
     public double calculateArea(double length, double width){
         return length * width;
     }
