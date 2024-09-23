@@ -6,7 +6,7 @@
  */
 import java.util.Scanner;
 public class Module5_ex6 {
-    
+    //function
     public static int calculateSum(int[] numbers){
         int sum = 0;
         for (int num : numbers) {
