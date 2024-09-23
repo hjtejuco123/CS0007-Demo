@@ -2,6 +2,60 @@
 https://github.com/hjtejuco123/CS0007-Demo
 https://github.com/hjtejuco123/CS0007-Demo/tree/master/src
 
+
+Programming Model
+    Procedural
+    OOP
+        Benefits
+            Abstraction
+            Encapsulation
+            Inheritance
+            Polymorphism
+    Class
+        Attributes
+        Constructor
+    Standard Methods
+        Mutator
+        Accessors
+    this keyword
+    Object
+    Access modifiers
+        private
+        public
+        default
+        protected 
+    Modifiers/Qualifiers
+        final
+        static
+        abstract
+        interface
+    Classification of variables
+        Instance Variable
+        class variable
+        local variables
+    Object Relation
+        Association
+        Inheritance
+    Object relationship
+        superclass
+        subclass
+        abstract class
+    
+    UML 
+        Class Diagram
+    Attributes and Operations
+        Access modifiers
+
+
+
+            
+
+
+
+
+
+
+
 Procedure - Method is block of codes that performs a 
 specific function
 
