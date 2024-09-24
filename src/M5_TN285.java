@@ -41,6 +41,7 @@ public class M5_TN285 {
         if (salary > 0) {
             this.salary = salary;
         }else{
+            this.salary = salary;
             System.out.println("Invalid Salary...");
         }
     }
