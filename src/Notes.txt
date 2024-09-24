@@ -85,6 +85,19 @@ paramater_list  *optional
     parameters are separated values
 
     
+Class car
+    brand
+    model
+    year
+
+Toyota 
+Corolla
+2000
+
+Honda
+Civic
+1998
+
 
 
 
