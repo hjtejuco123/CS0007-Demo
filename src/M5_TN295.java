@@ -1,4 +1,3 @@
-
 /**
  * Encapsulation
  * Mutator(assign) and Accessor(retrieve)
@@ -25,6 +24,7 @@ public class M5_TN295 {
     }
     
     //setters and getters
+    //                    James
     public void setName(String name){
         this.name = name;
     }
@@ -41,6 +41,7 @@ public class M5_TN295 {
     }
     
     //setters and getters
+    //                    1000 / -1
     public void setSalary(double salary){
         if (salary > 0){
             this.salary = salary;
