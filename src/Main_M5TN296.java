@@ -7,8 +7,7 @@ public class Main_M5TN296 {
         M5_TN296 calculator = new M5_TN296();
         
         int sum1 = calculator.add(5, 10);
-        int sum2 = calculator.add(10, 20, 
-                );
+        int sum2 = calculator.add(10, 20, 30);
         double sum3 = calculator.add(1.1, 2.1);
         int sum4 = calculator.add(new int[]{1,2,3,4,56});
         
