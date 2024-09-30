@@ -3,6 +3,51 @@ https://github.com/hjtejuco123/CS0007-Demo
 https://github.com/hjtejuco123/CS0007-Demo/tree/master/src
 
 
+UML Design
+BankAccount
+
+Problem 
+    Banking system
+        Deposit (500)
+        Withdraw  (200)
+    Input
+        Ask the user to input account number
+            accountNumber (attribute) - String
+    Process 
+        Performing 
+            Deposit
+            Withdrawal
+
+    Display the current balance
+            balance (attribute) - double 
+
+Process/ Method
+    BankAccount - constructor
+    deposit()
+        //operations
+            will check the amount if > 0
+                balance + amount
+            else
+                amount should be positive value
+
+    withdraw ()
+        //operations    
+            check the amount and balance
+                balance - amount
+            else
+                insufficient balance or invalid amount
+
+    checkBalance ()
+
+
+
+
+
+
+
+
+
+
 Programming Model
     Procedural
     OOP
