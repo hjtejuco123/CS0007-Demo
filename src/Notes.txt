@@ -141,6 +141,17 @@ Process
     Update the details and display the output
 
 
+Inheritance 
+
+    inherit fields and methods from another class.
+    re-usability 
+
+
+
+
+
+
+
 
 
 
