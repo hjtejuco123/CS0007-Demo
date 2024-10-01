@@ -42,8 +42,25 @@ Process/ Method
 
 
 
+Class - GasStation
 
+Gas Station Application
+    pricePerLiter = 2.50;  //final (constant)
+    double
+    private
 
+Methods
+    GasStation()
+    calculateTotal(double): double
+
+Input
+    Enter the number of liters
+
+Process
+    liters *  pricePerLiter
+
+Output
+    Total Cost
 
 
 
