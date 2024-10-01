@@ -111,6 +111,44 @@ Programming Model
 
 
             
+Module 6
+Encapsulation and Inheritance
+
+    Protect sensitive data
+    -restrict access to attributes(var) of a class
+
+    1.  Set variables to private
+        Class variable restricted access from outside the class
+
+    2. Getter(accessor) and Setters(mutator)
+            get and set
+
+        this.name = newName;
+    //The this keyword is used to refer to  the current object.
+
+---------------------------------------------------
+
+Student Information System
+
+Input
+    Enter student name (name) (getName)/(setName)
+    Enter student age (age)(getAge)/(setAge)
+    Enter student grade (grade) (getGrade) / (setGrade)
+
+    ---------------------------
+
+Process
+    Update the details and display the output
+
+
+
+
+
+
+
+
+
+
 
 
 
