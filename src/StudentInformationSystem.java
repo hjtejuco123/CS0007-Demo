@@ -6,16 +6,17 @@ public class StudentInformationSystem {
     private double grade;
     
     //Constructor
+    //                                  Hadji       28          80
     public StudentInformationSystem(String name, int age, double  grade){
-        this.name = name; //Hadji
-        this.age = age; // 28
-        this.grade = grade; // 80
+        this.name = name;   //Hadji
+        this.age = age;     //28    
+        this.grade = grade; //80    
     }
     
     public void displayDetails(){
-        System.out.println("Name: "+name); //Juan
-        System.out.println("Age: "+age); // 28
-        System.out.println("Grade: "+grade); // 80
+        System.out.println("Name: "+name);
+        System.out.println("Age: "+age);
+        System.out.println("Grade: "+grade); 
     }
     
     
@@ -71,13 +72,14 @@ public class StudentInformationSystem {
         System.out.print("Enter Updated Name: ");
         scanner.nextLine(); //clear buffer
         sis.setName(scanner.nextLine());
-        
+    
+       
         System.out.print("Enter Updated Age: ");
         sis.setAge(scanner.nextInt());
 
         System.out.print("Enter Updated Grade: ");
         sis.setGrade(scanner.nextDouble());
-        
+
         sis.displayDetails();
         
         

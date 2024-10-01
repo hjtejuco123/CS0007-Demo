@@ -8,7 +8,9 @@ UML Design
 BankSystem
 
 Problem 
+    
     Banking system
+        Balance set to 0 by default
         Deposit (500)
         Withdraw  (200)
         New Balance (300)
@@ -140,6 +142,12 @@ Input
     ---------------------------
 
 Process
+
+(name) (getName)/(setName)
+(age)(getAge)/(setAge)
+(grade) (getGrade) / (setGrade)
+
+
     Display (Record)
     Update the details and display the output
 
@@ -150,7 +158,6 @@ Process
 
                            
 Inheritance 
-
     inherit fields and methods from another class.
     re-usability 
 
