@@ -148,15 +148,27 @@ Process
 
 
 
-
+                           
 Inheritance 
 
     inherit fields and methods from another class.
     re-usability 
 
+Inheritance + Encapsulation 
 
+Library Management System
 
+Attributes
+    Title
+    Author
+    available
 
+    Inputs
+        Enter Book title
+        Enter Author
+        Enter Genre
+
+    Display Books    
 
 
 
