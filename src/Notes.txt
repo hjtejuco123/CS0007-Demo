@@ -4,12 +4,13 @@ https://github.com/hjtejuco123/CS0007-Demo/tree/master/src
 
 
 UML Design
-BankAccount
+BankSystem
 
 Problem 
     Banking system
         Deposit (500)
         Withdraw  (200)
+        New Balance (300)
     Input
         Ask the user to input account number
             accountNumber (attribute) - String
@@ -32,7 +33,7 @@ Process/ Method
 
     withdraw ()
         //operations    
-            check the amount and balance
+            check the amount>0 and amount <= balance 
                 balance - amount
             else
                 insufficient balance or invalid amount
