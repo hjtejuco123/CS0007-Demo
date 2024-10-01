@@ -16,15 +16,15 @@ public class Book {
     public void borrowBook(){
         if (available){
             available = false;
-            System.out.println(title + "has been borrowed ");
+            System.out.println(title + " has been borrowed ");
         }else{
-            System.out.println(title + "is not available");
+            System.out.println(title + " is not available");
         }
     }
     //return
     public void returnbook(){
         available = true;
-        System.out.println(title + "has been returned ");
+        System.out.println(title + " has been returned ");
     
     }
     

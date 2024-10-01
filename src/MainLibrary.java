@@ -2,9 +2,9 @@ import java.util.Scanner;
 public class MainLibrary {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter number of books");
+        System.out.println("Enter number of books: ");
         int numBooks = scanner.nextInt();
-        scanner.nextLine();
+        scanner.nextLine(); //clear buffer
         FictionBook[] books = new FictionBook[numBooks];
         
         for (int i = 0; i < numBooks; i++) {
@@ -25,6 +25,8 @@ public class MainLibrary {
             book.displayInfo();
         }
         
+        //direct access to the methods
+        //[0] pertains to the first element 
         books[0].borrowBook();
         books[0].returnbook();
         books[0].displayInfo();
