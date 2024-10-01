@@ -1,6 +1,7 @@
 
 https://github.com/hjtejuco123/CS0007-Demo
-https://github.com/hjtejuco123/CS0007-Demo/tree/master/src
+
+
 
 
 UML Design
@@ -139,7 +140,13 @@ Input
     ---------------------------
 
 Process
+    Display (Record)
     Update the details and display the output
+
+
+
+
+
 
 
 Inheritance 

@@ -5,6 +5,7 @@ public class GasStation {
     
     //method calculateTotal  
     public double calculateTotal(double liter){
+        
         return liter * pricePerLiter;
     }
     

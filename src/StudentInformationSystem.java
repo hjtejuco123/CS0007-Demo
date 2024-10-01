@@ -5,22 +5,23 @@ public class StudentInformationSystem {
     private int age;
     private double grade;
     
-    
+    //Constructor
     public StudentInformationSystem(String name, int age, double  grade){
-        this.name = name;
-        this.age = age;
-        this.grade = grade;
+        this.name = name; //Hadji
+        this.age = age; // 28
+        this.grade = grade; // 80
     }
     
     public void displayDetails(){
-        System.out.println("Name: "+name);
-        System.out.println("Age: "+age);
-        System.out.println("Grade: "+grade);
+        System.out.println("Name: "+name); //Juan
+        System.out.println("Age: "+age); // 28
+        System.out.println("Grade: "+grade); // 80
     }
-            
-
+    
+    
+                   //    Juan
     public void setName(String name){
-        this.name = name;
+        this.name = name;  //Juan
     }
     
      public void setAge(int age){
@@ -63,7 +64,7 @@ public class StudentInformationSystem {
         System.out.print("Enter Grade: ");
         double grade = scanner.nextDouble();
         
-        StudentInformationSystem sis= new StudentInformationSystem(name, age, grade);
+        StudentInformationSystem sis = new StudentInformationSystem(name, age, grade);
         sis.displayDetails();
         
         System.out.println("Update Record...");
