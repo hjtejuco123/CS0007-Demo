@@ -1,6 +1,55 @@
 
 https://github.com/hjtejuco123/CS0007-Demo
 
+Polymorphism
+    Polymorphism is the ability of objects belonging
+    to different types to respond to methods of the
+    same name, each one according to the right type
+    specific behavior.
+
+    It is the ability to redefine methods for derived
+    classes.
+
+Implementing Polymorphism
+
+    1. Method Overloading
+        Constructor Overloading
+        Method Overriding
+
+Abstract Class
+    contains one or more abstract
+    methods and, therefore, can never be instantiated. It
+    is defined so that other classes can extend them and
+    make them concrete by implementing the abstract
+    methods.
+
+    All abstract classes are public by default and
+    cannot be instantiated. Constructors and public
+    methods cannot be declared as abstract.
+
+
+Interfaces
+    An interface is a special kind of block containing method 
+    signatures (and possibly constants) only. Interfaces define the 
+    signatures of a set of methods without the bod
+
+Interface – an abstract class that represents a
+collection of method definitions and constant values.
+It can later be implemented by classes that define the
+interface using the implements keyword.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
