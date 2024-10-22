@@ -8,7 +8,7 @@
 
 public class M7_TN28_2 {
     public void sound() {
-        System.out.println("Some generic animal sound");
+        System.out.println( "Some generic animal sound");
     }    
 }
 
