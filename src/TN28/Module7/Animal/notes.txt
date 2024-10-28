@@ -1,0 +1,17 @@
+
+<<abstract>>
+  Animal
+------------
++makeSound()    //abstract method (does not have a body)
++sleep()        //regular method (body)
+
+    ^
+    |
+
+   Dog
+------------
++makeSound()    //provide implementation of the abstract method
++sleep()
+
+
+    Main
