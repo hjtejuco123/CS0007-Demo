@@ -14,9 +14,9 @@ public class Main3 {
             System.out.println("2. Cat");
             System.out.println("3. Cow");
             System.out.println("4. Exit");
-            
+            System.out.print("Select Animal: ");
             int choice = scanner.nextInt();
-            Animal3 animal3;
+            Animal3 animal3 = null;
             
             switch(choice){
                 case 1:
@@ -36,8 +36,10 @@ public class Main3 {
                     System.out.println("Invalid choice");
             
             }
+            
             animal3.makeSound();
             animal3.sleep();
+            
             
             System.out.println("Try again (yes/no");
             String tryAgain = scanner.next();
