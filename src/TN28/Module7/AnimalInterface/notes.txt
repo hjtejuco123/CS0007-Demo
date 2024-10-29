@@ -1,4 +1,17 @@
 
+ATM Machine
+    Screen
+        Check Balance
+        Withdraw money
+        Deposit
+
+    Operations in the background
+
+
+
+
+
+
  <<interface>>
      Animal
 ----------------
