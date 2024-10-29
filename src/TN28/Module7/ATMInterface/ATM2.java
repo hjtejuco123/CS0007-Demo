@@ -9,3 +9,14 @@ abstract class ATM2 implements ATMOperations{
         this.balance = initialBalance;
     }
 }
+
+
+/*
+    interface
+        abstract implement interface
+            sub class extends abstract
+                    main class
+
+
+
+*/
