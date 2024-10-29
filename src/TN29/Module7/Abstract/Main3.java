@@ -36,10 +36,10 @@ public class Main3 {
                     System.out.println("Invalid choice");
             
             }
-            
-            animal3.makeSound();
-            animal3.sleep();
-            
+            if (animal3 != null) {
+                animal3.makeSound();
+                animal3.sleep();
+            }
             
             System.out.println("Try again (yes/no");
             String tryAgain = scanner.next();
