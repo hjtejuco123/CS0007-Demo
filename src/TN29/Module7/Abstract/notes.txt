@@ -1,0 +1,37 @@
+
+Abstraction
+Class Diagram
+
+    ------------
+    <<abstract>>
+       Animal
+    -------------
+    +makeSound()
+    +sleep()
+    -------------
+         ^
+         |   
+    -------------
+        Dog
+    -------------
+    +makeSound()
+    +sleep()
+    --------------
+
+Interface
+
+ ------------
+    <<interface>>
+       Animal2
+    -------------
+    +makeSound2()
+    +sleep2()
+    -------------
+         ^
+         |   
+    -------------
+        Dog2
+    -------------
+    +makeSound2()
+    +sleep2()
+    --------------
