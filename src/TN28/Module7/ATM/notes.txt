@@ -1,0 +1,19 @@
+
+     ATM
+----------------
+-balance: double
+-----------------
++checkBalance()             //abstract
++deposit(amount:double)     //abstract
++withdraw(amount:double)    //abstract    
+
+      ^
+      |
+
+   SimpleATM
+------------------
++checkBalance()
++deposit(amount:double)
++withdraw(amount:double)
+
+
