@@ -41,7 +41,7 @@ public class Main3 {
                 animal3.sleep();
             }
             
-            System.out.println("Try again (yes/no");
+            System.out.println("Try again (yes/no)");
             String tryAgain = scanner.next();
             if (!tryAgain.equalsIgnoreCase("yes")) {
                 continueMenu=false;
