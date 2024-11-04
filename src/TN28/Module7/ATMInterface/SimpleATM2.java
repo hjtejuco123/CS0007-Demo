@@ -37,3 +37,8 @@ public class SimpleATM2 extends ATM2{
         
     }
 }
+//Template
+//Draw the class diagram
+//Paste source code from your IDE
+//Screenshot test cases with the corresponding menu
+//explain abstract class and interfaces.
