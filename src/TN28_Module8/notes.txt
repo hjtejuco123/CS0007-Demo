@@ -1,0 +1,17 @@
+
+try-catch block
+
+syntax
+
+
+try {
+    //code that may thrown an exception
+}catch (ExceptionType1 e1){
+    //Handle the ExceptionType1
+}catch (ExceptionType2 e2) {
+    //Handle the ExceptionType2
+}finally{
+    Optional block that executes regardless of an exception
+}
+
+//ArithmeticException
