@@ -15,3 +15,5 @@ try {
 }
 
 //ArithmeticException
+//ArrayIndexOutOfBoundsException
+//NullPointerException
