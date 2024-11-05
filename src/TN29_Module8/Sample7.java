@@ -4,6 +4,8 @@
  */
 package TN29_Module8;
 
+
+
 import java.util.Scanner;
 public class Sample7 {
     private double balance;
@@ -52,8 +54,7 @@ public class Sample7 {
         Sample7 account = new Sample7();
         Scanner scanner = new Scanner(System.in);
         int choice;
-        
-        
+      
         while(true){
             System.out.println("MENU");
             System.out.println("1. Deposit");
