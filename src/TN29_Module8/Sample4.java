@@ -17,9 +17,9 @@ public class Sample4 {
         try{
             checkAge(15);
             
-        }catch(Exception e){
-            System.out.println("Exception caught "+e);
-            System.out.println("Exception caught "+e.getMessage());
+        }catch(Exception exp){
+            System.out.println("Exception caught "+exp);
+            System.out.println("Exception caught "+exp.getMessage());
         
         }
     }
