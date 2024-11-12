@@ -11,14 +11,14 @@ public class SimpleQueueExample {
         //FIFO
         Queue<Integer> queue = new LinkedList<>();
         
-        queue.add(10);
+        queue.add(10);//Enqueue (add elemement)
         queue.add(20);
         queue.add(30);
         
         System.out.println("List "+queue);
         //first element
         System.out.println("First Element "+queue.peek());
-        //remove poll
+        //remove poll (dequeue)
         System.out.println("Remove element "+queue.poll());
         System.out.println("List "+queue);
         
