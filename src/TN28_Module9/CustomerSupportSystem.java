@@ -54,26 +54,20 @@ public class CustomerSupportSystem {
                     break;
                     
                 case 3:
-                     if (!urgencyQueue.isEmpty() && !customerQueue.isEmpty()){
-                         System.out.println("All tickets in Queue");
-                         System.out.println("Customer name - Urgency Level");
-                         PriorityQueue<Integer> tempUrgencyQueue = new PriorityQueue<>(urgencyQueue);
-                         Queue<String> tempCustomerQueue = new LinkedList <>(customerQueue);
-                         while (!tempUrgencyQueue.isEmpty() && !tempCustomerQueue.isEmpty()){
-                             System.out.println(tempCustomerQueue.poll() + " - " +tempUrgencyQueue.poll());
-                         }
-                    
-                    }else{
-                        System.out.println("No ticket to process");
+                     if (!urgencyQueue.isEmpty() && !customerQueue.isEmpty()) {
+                        System.out.println("All Tickets in Queue:");
+                        System.out.println("Customer Name - Urgency Level");
+                        // Display customers and urgency levels
+                        PriorityQueue<Integer> tempUrgencyQueue = new PriorityQueue<>(urgencyQueue);
+                        Queue<String> tempCustomerQueue = new LinkedList<>(customerQueue);
+                        while (!tempUrgencyQueue.isEmpty() && !tempCustomerQueue.isEmpty()) {
+                            System.out.println(tempCustomerQueue.poll() + " - " + tempUrgencyQueue.poll());
+                        }
+                    } else {
+                        System.out.println("No tickets in the queue.");
                     }
-                    
-                    
-                    
-                    
-                    
-                    
                     break;
-                    
+          
                 case 4:
                     System.out.println("Exit APP");
                     scanner.close();
