@@ -42,7 +42,8 @@ public class ContactManagerLinkedList {
             System.out.println("6. Add Contact at specific position ");
             System.out.println("7. Remove Contact by name");
             System.out.println("8. Remove by Position: ");
-            System.out.println("9. Exit ");
+            System.out.println("9. Search by name ");
+            System.out.println("10. Exit ");
             System.out.println("Enter your choice: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
@@ -135,8 +136,24 @@ public class ContactManagerLinkedList {
                     
                     
                     break;
-                    
                 case 9:
+                    System.out.println("Enter name to search: ");
+                    String nameToSearch = scanner.nextLine();
+                    boolean found = false;
+                    
+                    for (Contact contact : contacts){
+                        if (contact.getName().equalsIgnoreCase(nameToSearch)){
+                            System.out.println("Contact found ");
+                            found = true;
+                            break;
+                        }
+                    }
+                    if (!found){
+                        System.out.println("No Contact found ");
+                    }
+              
+                    break;
+                case 10:
                     System.out.println("Exit program");
                     scanner.close();
                     return;
