@@ -39,7 +39,10 @@ public class ContactManagerLinkedList {
             System.out.println("3. Remove First contact ");
             System.out.println("4. Remove last contact ");
             System.out.println("5. View ");
-            System.out.println("6. Exit ");
+            System.out.println("6. Add Contact at specific position ");
+            System.out.println("7. Remove Contact by name");
+            System.out.println("8. Remove by Position: ");
+            System.out.println("9. Exit ");
             System.out.println("Enter your choice: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
@@ -88,7 +91,52 @@ public class ContactManagerLinkedList {
                         System.out.println("No contact found ");
                     }
                     break;
+                    
                 case 6:
+                    System.out.print("Enter contact name: ");
+                    String namePosition = scanner.nextLine();
+                    System.out.print("Enter contact Phone Number: ");
+                    String phonePosition = scanner.nextLine();
+                    System.out.println("Enter the position to add 0-index");
+                    int position = scanner.nextInt();
+                    
+                    if (position >= 0 && position <= contacts.size()){
+                        contacts.add(position, new Contact (namePosition,phonePosition));
+                        System.out.println("Contact added at position ."+position);
+
+                    }else{
+                        System.out.println("Invalid position");
+                    }
+                    break;
+                case 7:
+                    System.out.println("Enter name to remove: ");
+                    String nameToRemove = scanner.nextLine();
+                    boolean removed = contacts.removeIf(contact -> contact.getName().equalsIgnoreCase(nameToRemove));
+                    if (removed){
+                        System.out.println("Contact Removed ");
+                    }else{
+                        System.out.println("Contact not found ");
+                    }
+                    
+                    
+                    break;
+                case 8:
+                    System.out.println("Enter the position to add 0-index");
+                    int removePosition = scanner.nextInt();
+                   
+                    if (removePosition >= 0 && removePosition <= contacts.size()){
+                        Contact removedContact = (contacts.remove(removePosition));
+                        System.out.println("remove contact at position ."+removePosition);
+
+                    }else{
+                        System.out.println("Invalid position");
+                    }
+                    
+                    
+                    
+                    break;
+                    
+                case 9:
                     System.out.println("Exit program");
                     scanner.close();
                     return;
