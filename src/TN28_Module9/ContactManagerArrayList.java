@@ -23,7 +23,7 @@ class Contact {
     }
     @Override
     public String toString(){
-        return "Contact Name: "+name+ " Phone "+phone;
+        return "Contact[Name: "+name+ ", Phone "+phone+"]";
     }
     
 }
@@ -42,12 +42,12 @@ public class ContactManagerArrayList {
             System.out.println("5. Exit ");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-        
+            scanner.nextLine();
             switch(choice){
                 case 1:
-                    System.out.println("Enter contact name: ");
+                    System.out.print("Enter contact name: ");
                     String name = scanner.nextLine();
-                    System.out.println("Enter contact Phone Number: ");
+                    System.out.print("Enter contact Phone Number: ");
                     String phone = scanner.nextLine();
                     contacts.add(new Contact (name,phone));
                     System.out.println("Contact added ");
@@ -55,11 +55,11 @@ public class ContactManagerArrayList {
                 case 2:
                     System.out.println("List of Contacts ");
                     for (Contact contact : contacts ){
-                        System.out.println(contacts);
+                        System.out.println(contact);
                     }
                     break;
                 case 3:
-                    System.out.println("Enter name to remove ");
+                    System.out.print("Enter name to remove ");
                     String nameToRemove = scanner.nextLine();
                     boolean removed = contacts.removeIf(contact -> contact.getName().equalsIgnoreCase(nameToRemove));
                     if (removed){
@@ -69,7 +69,7 @@ public class ContactManagerArrayList {
                     }
                     break;
                 case 4:
-                    System.out.println("Enter name to search ");
+                    System.out.print("Enter name to search ");
                     String nameToSearch = scanner.nextLine();
                     boolean found = false;
                     for (Contact contact : contacts ){
