@@ -7,3 +7,14 @@ List Interfaces (ordered, allows duplicates)
                     frequent insertion and deletion
     Vector
     Stack
+
+
+Queue Interface
+    FIFO Order
+        PriorityQueue
+        Deque
+        ArrayDeQueue
+
+    Implements Queue interface
+
+

@@ -27,10 +27,10 @@ public class BrowsingHistoryStack {
         for (String page : history){
             System.out.println(page);
         }
-        
+//        
         System.out.println();
         System.out.println("Current page "+history.peek());
-        
+//        
         
     }
 }
