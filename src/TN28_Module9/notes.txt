@@ -1,5 +1,4 @@
 
-
 List Interfaces (ordered, allows duplicates)
     ArrayList - resizable array (java.util.ArrayList)
                     .add, .remove
