@@ -24,7 +24,7 @@ public class BookListVector {
             System.out.println(book);
         }
         
-        String searchBook = "Book Ad";
+        String searchBook = "Book A";
         if (books.contains(searchBook)){
             System.out.println("found");
         }else{
