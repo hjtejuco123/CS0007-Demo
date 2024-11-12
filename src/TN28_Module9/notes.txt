@@ -11,7 +11,7 @@ List Interfaces (ordered, allows duplicates)
 Queue Interface
     FIFO Order
         PriorityQueue
-        Deque
+        Deque - Double ended Queue
         ArrayDeQueue
 
     Implements Queue interface

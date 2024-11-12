@@ -18,8 +18,8 @@ public class SimpleDequeExample {
         
         System.out.println(taskQueue.removeFirst());
         System.out.println("Elements "+taskQueue);
-        System.out.println(taskQueue.removeFirst());
-        System.out.println("Elements "+taskQueue);
+//        System.out.println(taskQueue.removeFirst());
+//        System.out.println("Elements "+taskQueue);
         System.out.println(taskQueue.removeLast());
         System.out.println("Elements "+taskQueue);
 
