@@ -1,0 +1,9 @@
+
+
+List Interfaces (ordered, allows duplicates)
+    ArrayList - resizable array (java.util.ArrayList)
+                    .add, .remove
+    LinkedList - Doubly Linked list implementation
+                    frequent insertion and deletion
+    Vector
+    Stack
