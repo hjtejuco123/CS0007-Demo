@@ -9,10 +9,10 @@ import java.util.Scanner;
 class Contact {
     private String name;
     private String phone;
-
+                    //  hadji    123
     public Contact (String name, String phone) {
-        this.name = name;
-        this.phone = phone;
+        this.name = name;  //hadji
+        this.phone = phone; //123
         
     }
     public String getName(){

@@ -12,7 +12,7 @@ public class ArrayListExample {
         names.add("Bob"); //1
         names.add("James");//2
         names.add("Hadji");//3
-        
+       
         System.out.println("ArrayList Elements "+names);
         
         Iterator itr = names.iterator();
