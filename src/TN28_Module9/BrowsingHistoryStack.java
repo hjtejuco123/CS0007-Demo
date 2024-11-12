@@ -20,17 +20,26 @@ public class BrowsingHistoryStack {
         for (String page : history){
             System.out.println(page);
         }
+        
+        System.out.println("Top page: "+history.peek());
         System.out.println();
         System.out.println("Remove current page "+history.pop());
-        //display
-        System.out.println("Current browsing history");
+        
+        System.out.println("Updated browsing history");
         for (String page : history){
             System.out.println(page);
         }
-//        
-        System.out.println();
-        System.out.println("Current page "+history.peek());
-//        
+        System.out.println("Top page: "+history.peek());
+
+//        //display
+//        System.out.println("Current browsing history");
+//        for (String page : history){
+//            System.out.println(page);
+//        }
+////        
+//        System.out.println();
+//        System.out.println("Current page "+history.peek());
+////        
         
     }
 }
