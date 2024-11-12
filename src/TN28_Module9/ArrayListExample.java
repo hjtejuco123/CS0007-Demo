@@ -17,8 +17,9 @@ public class ArrayListExample {
         System.out.println("Element 2: "+names.get(2));
         names.remove(1);
         System.out.println("list of names after removal "+names);
-                
-        
+        names.remove(1);       
+        System.out.println("list of names after removal "+names);
+
         
     }
 }
