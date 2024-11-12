@@ -14,7 +14,7 @@ public class SimplePriorityQueueExample {
         System.out.println("list "+priorityQue);
         System.out.println("remove priority order");
         while(!priorityQue.isEmpty()) {
-            System.out.println(priorityQue.l());
-        }pol
+            System.out.println(priorityQue.poll());
+        }
     }
 }
